@@ -1,0 +1,29 @@
+/* Footer */
+
+footer {
+  background-color: #9b9b9b;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .content {
+  color: white;
+  display: flex;
+}
+
+footer .copyright {
+  flex-grow: 1;
+  font-size: 0.75rem;
+}
+
+footer .location {
+  flex-grow: 1;
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 760px) {
+  footer .content {
+    font-size: 0.625rem;
+  }
+}

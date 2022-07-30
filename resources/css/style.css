@@ -1,0 +1,52 @@
+@import url(./header.css);
+@import url(./sign-up-section.css);
+@import url(../css/features.css);
+@import url(../css/filters.css);
+@import url(../css/quotes.css);
+@import url(../css/footer.css);
+
+/* Universal Styles */
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.main-content {
+  position: relative;
+  background-color: white;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 640px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+
+  .image-container img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
